@@ -10,6 +10,7 @@ const client = new Client()
 const account = new Account(client)
 const database = new Databases(client)
 
+
 function register(event) {
     account.create(
         ID.unique(),
